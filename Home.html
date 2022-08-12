@@ -1,0 +1,165 @@
+<!Doctype Html>
+<html>
+<head>
+  <body style="background-color:greenyellow;">
+  <style>
+    #carouselExampleFade{
+      Border: 5px solid black;
+    }
+    #square{
+  border:5px solid black;
+   background-color:red;
+   position:relative;
+  animation-name:supersquare;
+  animation-duration:5s; width:50px;
+  height:50px;
+ animation-timing-function: linear;
+ }@keyframes supersquare{
+   0%{ 
+   background-color:red;
+     top:0px;left:0px;  }
+     25%{
+       background-color:yellow;
+       top:500px;
+       left:0px;
+       width:70px;
+       height:70px;
+     }
+     50%{
+       background-color:green;
+       top:500px;
+       left:600px;
+       height:80px;
+     }
+     75%{
+       background-color:blue;
+       top:0px;
+       left:600px;
+       
+       
+     }
+     100%{
+       background-color:red;
+       top:0px;
+       left:0px;
+     }
+ }
+ #square{
+             transition-property: border-radius;
+             transition-duration: 2s;
+             }
+ 
+           #square:hover{
+             border-radius:40px;
+           }
+    .hi{
+      text-align: center;
+      font-family: Jetbrains Mono;
+      color:white;
+    }
+    .Hello{
+             text-align: center;
+             color: coral;
+    }
+  </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src= "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar     HOME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Builds.html">Builds</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Small But Cool</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Tab3
+            </span>
+          </div>
+        </div>
+      </nav>
+      <h1 class="Hello">
+                                                                THE OFFICIAL MINECRAFT BUILDS DISPLAY!!
+</h1>
+<br>
+<br>
+<br>
+
+<p class="hi">
+Explore the tabs in the Navbar to find builds of all sizes! Some are small but cool enough to blow your minds!<br></p>
+<p class="hi">
+The <strong><em>Builds</em></strong> tab contains large and super cool builds. And the <strong><em>Small But Cool</em></strong> tab contains small but cool builds.
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://ender-chest.com/wp-content/uploads/2017/08/minecraft-castle.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/originals/4c/b7/93/4cb793bacc3583a7a72f2b498a38315f.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://pm1.narvii.com/6519/57ae6b79860934f3bc9b6a06667279f7eec16cf5_hq.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h5>
+  Credits:
+</h5>
+<br>
+<a href="https://ender-chest.com/wp-content/uploads/2017/10/minecraft-castle.jpg"> Web 1 </a><br>
+<a href="https://www.9minecraft.net"> Web 2 </a> <br>
+<a href="https://getbootstrap.com/"> Web 3 </a>
+<div id="square">
+</div>
+</body>
+</html> 
